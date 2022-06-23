@@ -1,0 +1,149 @@
+/* --------- Login --------- */
+
+.login input::placeholder {
+  @apply text-white;
+}
+
+/* --------- spotlight --------- */
+
+.spotlight {
+  @apply fixed z-20 top-1/4 -mt-16 h-max rounded-md backdrop-blur-2xl shadow-2xl bg-gray-50 bg-opacity-80 border border-gray-400 border-opacity-50;
+  width: 660px;
+  margin-left: -330px;
+  left: 50%;
+}
+
+.spotlight input::placeholder {
+  @apply text-black opacity-40;
+}
+
+.spotlight .spotlight-type {
+  @apply flex-center-v pl-6 py-0.5 text-xs leading-none bg-gray-400 bg-opacity-80 text-black;
+}
+
+html.dark .spotlight {
+  @apply bg-gray-900 bg-opacity-80 border-gray-500 border-opacity-50;
+}
+
+html.dark .spotlight input::placeholder {
+  @apply text-white opacity-40;
+}
+
+html.dark .spotlight .spotlight-type {
+  @apply bg-gray-500 bg-opacity-80 text-white;
+}
+
+@media (max-width: 639px) {
+  .spotlight {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+  }
+}
+
+/* --------- app window --------- */
+
+.window-bound {
+  width: 300%;
+  height: 200%;
+  left: -100%;
+}
+
+.innner-window {
+  height: calc(100% - 1.5rem);
+}
+
+.safari-content {
+  height: calc(100% - 2rem);
+}
+
+.traffic-lights svg {
+  @apply hidden;
+}
+
+.traffic-lights:hover svg {
+  @apply block;
+}
+
+/* --------- dock --------- */
+
+.dock ul {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.17);
+}
+
+.dock li .tooltip {
+  @apply hidden;
+  top: calc(-100% - 5px);
+}
+
+.dock li:hover .tooltip {
+  @apply block;
+  box-shadow: hsla(0deg, 0%, 0%, 20%) 0px 1px 5px 2px, 0 0 0 0 white;
+}
+
+/* --------- slider --------- */
+
+.slider .rangeslider {
+  @apply bg-gray-300 w-full h-7 shadow-none m-0 rounded-r-full border-t border-r border-b border-transparent;
+}
+
+.slider .rangeslider .rangeslider__fill {
+  @apply bg-gray-100 shadow-none rounded-none;
+}
+
+.slider .rangeslider .rangeslider__handle {
+  @apply border border-gray-300 outline-none h-7 w-7 text-white bg-white;
+  box-shadow: -3px 0px 8px 0px rgba(17, 17, 17, 0.15);
+}
+
+.slider .rangeslider .rangeslider__handle::after {
+  @apply hidden;
+}
+
+html.dark .slider .rangeslider {
+  @apply bg-gray-600;
+}
+
+html.dark .slider .rangeslider .rangeslider__fill {
+  @apply bg-gray-800;
+}
+
+html.dark .slider .rangeslider .rangeslider__handle {
+  @apply border-gray-600;
+}
+
+
+/*
+  Credits: W3 Schools: https://www.w3schools.com/howto/howto_css_switch.asp
+*/
+
+/* The switch - the box around the slider */
+.switch-toggle {
+  @apply relative inline-block h-full w-9.5;
+}
+
+/* Hide default HTML checkbox */
+.switch-toggle input {
+  @apply w-0 h-0 opacity-0;
+}
+
+/* The slider */
+.slider-toggle {
+  @apply absolute rounded-full bg-gray-300 top-0 left-0 right-0 bottom-0 cursor-pointer duration-300;
+}
+
+.slider-toggle:before {
+  @apply content-[""] absolute rounded-full bg-white bottom-0.5 left-0.5 w-4.5 h-4.5 duration-300;
+}
+
+input:checked + .slider-toggle {
+  background-color: #2196F3;
+}
+
+input:focus + .slider-toggle {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider-toggle:before {
+  @apply translate-x-4;
+}
