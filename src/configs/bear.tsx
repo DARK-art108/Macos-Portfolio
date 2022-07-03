@@ -68,8 +68,8 @@ const bear: BearData[] = [
         link: "https://github.com/DARK-art108/MegatronBot"
       },
       {
-        id: "Detect Now!",
-        title: "Detect Now!",
+        id: "DetectNow.ai",
+        title: "DetectNow.ai",
         file: "https://raw.githubusercontent.com/DARK-art108/README-Projects/main/dash.md",
         icon: <AiFillVideoCamera/>,
         excerpt: "A Video Analytics Dashboard for detecting and tracking objects",

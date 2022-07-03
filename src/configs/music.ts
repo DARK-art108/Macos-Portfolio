@@ -1,10 +1,10 @@
 import type { MusicData } from "~/types";
 
 const music: MusicData = {
-  title: "295",
-  artist: "Sidhu Moose Wala",
-  cover: "https://www.glamsham.com/wp-content/uploads/2022/05/Sidhu-Moose-Wala-295-Song-Lyrics-pic-courtesy-yt.jpg",
-  audio: "music/295.mp3"
+  title: "Parshawan",
+  artist: "Harnoor",
+  cover: "https://i.scdn.co/image/ab67616d0000b27382439bae5f471e08f0a45176",
+  audio: "music/parshawan.mp3",
 };
 
 export default music;

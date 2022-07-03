@@ -2,7 +2,7 @@
 
 ## Biography
 
-I am [Ritesh](), a passionate and creative developer from [🇮🇳 ](https://en.wikipedia.org/wiki/India)&nbsp;with a strong intrest in DevOps⚙️ and Natural Language Processing🤖.
+I am [Ritesh](ritesh.cloud), a passionate and creative developer from [🇮🇳 ](https://en.wikipedia.org/wiki/India)&nbsp;with a strong intrest in DevOps⚙️ and Natural Language Processing🤖.
 
 I ❤️ to work with Cloud-Native technologies and Golang ( Go ). I build robust, secure, and scalable infrastructures using Cloud-native technologies such as Kubernetes, Docker, Helm, Terraform, DigitalOcean, AWS,GCP,CI/CD, etc. and proficient with metric collection & monitoring tools such as Grafana,Kibana and Logstash.
 
@@ -25,4 +25,4 @@ Contact me by:
 
 ## Résumé
 
-- Normal version: [English]()
+- Normal version: [English](https://drive.google.com/file/d/1qHrllIrcymTBI5YwKWcbr-ZtNjLw9mBk/view?usp=sharing)

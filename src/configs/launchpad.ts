@@ -14,8 +14,8 @@ const launchpadApps: LaunchpadData[] = [
     link: "https://github.com/DARK-art108/MegatronBot"
   },
   {
-    id: "Detect Now!",
-    title: "Detect Now!",
+    id: "DetectNow.ai",
+    title: "DetectNow.ai",
     img: "img/icons/launchpad/resume.png",
     link: "https://github.com/DARK-art108/YoloV5-DeepSort-Streamlit-Dashboard"
   }
